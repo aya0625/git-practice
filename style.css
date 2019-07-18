@@ -66,32 +66,15 @@ main{
 }
 
 @media screen and (max-width:768px) {
-	.site{
+	.site {
 		float:none;
+		width: 90%;
+		margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
 	}
 
-	/* すべての画面で適用される設定です */
-.social i {   
-	color:black;
-  }
-   
-  /* タブレット横置き(1024px)程度の大きさ以下に適用される設定です */
-  @media screen and (max-width:1024px) {  
-	.social i {    
-	  color: green;  
-	  }
-  }
-   
-  /* タブレット縦置きサイズ(768px)程度の画面の大きさ以下に適用される設定です */
-  @media screen and (max-width:768px) {  
-	.social i {    
-	  color: red;  
-	  }
-  }
-   
-  /* スマートフォンサイズ(425px)程度の画面の大きさ以下に適用される設定です */
-  @media screen and (max-width:425px) {  
-  .social i {
-	  color: blue;
-	  }
-  }
+	.last-child{
+		margin-left: auto;
+        margin-right: auto;
+	}
