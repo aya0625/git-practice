@@ -8,6 +8,14 @@
   content: "";
   display: block;
   clear: both;
+
+}
+
+.sites{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	/* text-align: center; */
 }
 
 main{
@@ -74,7 +82,18 @@ main{
         margin-top: 20px;
 	}
 
-	.last-child{
-		margin-left: auto;
-        margin-right: auto;
+	.site:last-child{
+		margin-right: auto;
+	} 
+
+	.site-image1{
+		width: 100%;
+	}
+
+	.site-image2{
+		width: 100%;
+	}
+
+	.site-image3{
+		width: 100%;
 	}
